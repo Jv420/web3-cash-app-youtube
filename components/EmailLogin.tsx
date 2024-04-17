@@ -39,7 +39,7 @@ export default function EmailSignIn() {
                 smartWalletConfig,
                 {
                     personalWallet: personalWallet,
-                    chainId: 80001,
+                    chainId: 137,
                 }
             )
             const isDeployed = await smartWallet.isDeployed();
